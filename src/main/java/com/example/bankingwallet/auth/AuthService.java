@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class AuthService {
 
-    @Autowired
+//    @Autowired is not required when we do constructor injection
     private final UserRepository userRepository;
     private final JwtUtil jwtUtil;
 

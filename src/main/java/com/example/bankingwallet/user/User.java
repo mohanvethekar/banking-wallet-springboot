@@ -17,6 +17,7 @@ public class User {
     private Long custId;
     private String password;
     private String name;
+    @Column(unique = true)
     private String email;
 
     public void setCustId(Long custId) {
